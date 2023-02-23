@@ -373,10 +373,8 @@ let mens_data = [
         freq: "(80)",
     },
     {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-GK9175/reebok_GK9175_1.jpg.plp",
+        image_url:"https://content.shop4reebok.com/static/Product-GK9175/reebok_GK9175_1.jpg.plp",
         name: "MEN'S REEBOK TRAINING FOUNDATION  PANTS  ",
-
         strikedoffprice: "Rs.1699",
         price: 770,
         offer: " 60% off",
@@ -589,3 +587,7 @@ let mens_data = [
         freq: "(120)",
     },
 ];
+
+
+let container=document.querySelector("container");
+

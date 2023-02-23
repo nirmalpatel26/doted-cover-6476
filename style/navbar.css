@@ -1,0 +1,82 @@
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid #ff0000; */
+    align-items: center;
+    height: 70px;
+}
+.first>div{
+    /* border: 2px solid black; */
+    width: 47%;
+    height: 40px;
+    align-items: center;
+}
+.first>div>img{
+    height: 50px;
+  margin-top: 0px;
+  border-radius: 8px;
+}
+.first>div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid gray;
+    
+
+}
+.first>div>input:nth-child(1){
+    font-size: 23px;
+}
+.first>div>div{
+    border: 1px solid rgb(139, 139, 144);
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.first>div>div>a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color:rgb(129,157,197); */
+    height: 50px;
+    align-items: center;
+}
+.second>a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+#nav{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#carouselExampleRide{
+    background-color: black;
+    color: white;
+   
+}
+.box2{
+    margin: auto;
+   /* border: 1px solid rgb(215, 16, 16); */
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(1,1fr);
+   
+  
+ 
+}
+.margin{
+    margin: 0%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
