@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <style>
+        #nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        #input {
+
+            /* border: 1px solid black; */
+            margin: auto;
+            width: 30%;
+            text-align: center;
+            margin-top: 30px;
+        }
+        #input >div > img{
+            /* border: 1px solid red; */
+            width: 30%;
+            margin-top: 0%;
+        }
+        #input >div > h5{
+            margin-bottom: 0%;
+        } #input >div:nth-child(3){
+            
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #input >div:nth-child(4){
+              gap: 20px;
+             flex-direction: column;
+             display: grid;
+        }
+        #input >div>input{
+            width: 350px;
+            height: 40px;
+            display: grid;
+            grid-template-columns: repeat(1.1fr);
+            margin: auto;
+            font-size: 20px;
+        }
+        .submit >Button{
+            margin: auto;
+            margin-top: 20px;
+            width: 350px;
+            height: 40px;
+            font-size: 20px;
+            background-color: aqua;
+            border: none;
+            
+        }
+        .submit >Button>a{
+            text-decoration: none;
+            color: rgb(13, 13, 13);
+        }
+        .submit >Button:hover{
+            background-color: rgb(5, 114, 94);
+            color: rgb(247, 241, 241);
+           
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <img src="https://account.finishline.com/static/media/fnl-logo.17a8d67e.svg" alt="">
+    </div>
+    <div id="input">
+        <img src="https://account.finishline.com/static/media/STATUS_logo_black.3c28c69a.svg" alt="">
+        <div>
+            <h5>
+                ONE ACCOUNT. <br>
+                MORE ACCESS. <br>
+            </h5>
+            <img src="https://account.finishline.com/static/media/JD_FNL_Brand.2545ac22.svg" alt="">
+        </div>
+       
+        <div>
+            <h3>CREATE A STATUS ACCOUNT</h3>
+            <h5>Earn 10 points for every $1 you spend.</h5>
+            <p>Get Points. Gain Access. Boost your STATUS.</p>
+        </div>
+        <div>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Birth Date">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+
+        </div>
+       <div class="submit">
+        <Button><a href="">CREATE ACCOUNT</a></Button> <br>
+       </div>
+
+      
+    </div>
+</body>
+
+</html>
