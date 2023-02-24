@@ -26,6 +26,31 @@
 .first>div>input:nth-child(1){
     font-size: 23px;
 }
+
+@media only screen and (max-width:600px) {
+    .first>div>input:nth-child(1){
+        display: none;
+    } 
+    .first>div>div{
+        border: 1px solid rgb(139, 139, 144);
+        height: 40px;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .first>div{
+        /* border: 2px solid black; */
+        width: 47%;
+        height: 40px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
 .first>div>div{
     border: 1px solid rgb(139, 139, 144);
     height: 40px;

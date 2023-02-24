@@ -4,7 +4,7 @@ let mens_data = [
         name: "Tales & Stories Boys Lycra Grey Solid Jeans",
         strikedoffprice: "Rs. 999 ",
         price: 875,
-        offer: "12% OFF",
+        offer: "12%",
         rating: "3halfstar.png",
         freq: "(55)",
     },
@@ -13,7 +13,7 @@ let mens_data = [
         name: "David Crew 100 Percent Cotton Maroon Printed ",
         strikedoffprice: "Rs. 1199",
         price: 299,
-        offer: "76% off",
+        offer: "76%",
         rating: "3halfstar.png",
         freq: "(233)",
     },
@@ -22,7 +22,7 @@ let mens_data = [
         name: "DevHim Four Way lycra Jogger",
         strikedoffprice: "Rs. 1199",
         price: 289,
-        offer: "79% off",
+        offer: "79%",
         rating: "3halfstar.png",
         freq: "(24)",
     }, {
@@ -30,7 +30,7 @@ let mens_data = [
         name: "Forbro - Polyester Blend Purple Men's Trackpants",
         strikedoffprice: "Rs. 1345",
         price: 345,
-        offer: "67% off",
+        offer: "67%",
         rating: "3halfstar.png",
         freq: "(367)",
     }, {
@@ -38,7 +38,7 @@ let mens_data = [
         name: "David Crew - 100% Cotton Regular Fit Multi Men's",
         strikedoffprice: "Rs.1199",
         price: "576",
-        offer: "47% off",
+        offer: "47%",
         rating: "3halfstar.png",
         freq: "(23)",
     }, {
@@ -46,7 +46,7 @@ let mens_data = [
         name: "Vitaan Color Block Grey & Blue Track Pant / Tra",
         strikedoffprice: "Rs.1598",
         price: 444,
-        offer: "74% off",
+        offer: "74%",
         rating: "3halfstar.png",
         freq: "(222)",
     }, {
@@ -54,7 +54,7 @@ let mens_data = [
         name: "Life Roads - 100% Cotton Slim Fit White Men's",
         strikedoffprice: "Rs.2499",
         price: "547",
-        offer: "78% off",
+        offer: "78%",
         rating: "3halfstar.png",
         freq: "(456)",
     }, {
@@ -62,7 +62,7 @@ let mens_data = [
         name: "VAPOUR SPORTS - Polyester Black Men's Trackpant",
         strikedoffprice: "Rs.3999",
         price: "589",
-        offer: "89% off",
+        offer: "89%",
         rating: "3halfstar.png",
         freq: "(345)",
     }, {
@@ -70,7 +70,7 @@ let mens_data = [
         name: "Veirdo - 100% Cotton Regular Fit Green Men's",
         strikedoffprice: "Rs.1199",
         price: 297,
-        offer: "67% off",
+        offer: "67%",
         rating: "3halfstar.png",
         freq: "(123)",
     }, {
@@ -78,7 +78,7 @@ let mens_data = [
         name: "Urbano Fashion Cotton Blend Slim Fit Black Men's",
         strikedoffprice: "Rs.1367",
         price: 657,
-        offer: "55% off",
+        offer: "55%",
         rating: "3halfstar.png",
         freq: "(233)",
     }, {
@@ -86,7 +86,7 @@ let mens_data = [
         name: "The Million Club - Polyester Regular Fit Black Men ",
         strikedoffprice: "Rs.2345",
         price: 899,
-        offer: "68% off",
+        offer: "68%",
         rating: "3halfstar.png",
         freq: "(234)",
     }, {
@@ -94,7 +94,7 @@ let mens_data = [
         name: "Zeffit - Cotton Blend Black Men's Trackpan",
         strikedoffprice: "Rs.999",
         price: 299,
-        offer: "70% off",
+        offer: "70%",
         rating: "3halfstar.png",
         freq: "(123)",
     }, {
@@ -102,7 +102,7 @@ let mens_data = [
         name: "Scrott Fitness - 100% Cotton Regular Fit Black Men'",
         strikedoffprice: "Rs.1220",
         price: 467,
-        offer: "72% off",
+        offer: "72%",
         rating: "3halfstar.png",
         freq: "(23)",
     }, {
@@ -110,7 +110,7 @@ let mens_data = [
         name: "Maniac - 100% Cotton Slim Fit Navy Men's T-Shirt",
         strikedoffprice: "Rs.1249",
         price: 345,
-        offer: "60% off",
+        offer: "60%",
         rating: "3halfstar.png",
         freq: "(67)",
     }, {
@@ -118,7 +118,7 @@ let mens_data = [
         name: "The Million Club - Cotton Blend Regular Fit Wh",
         strikedoffprice: "Rs.1544",
         price: 599,
-        offer: "70% off",
+        offer: "70%",
         rating: "3halfstar.png",
         freq: "(234)",
     }, {
@@ -126,7 +126,7 @@ let mens_data = [
         name: "UrbanMark White Slippers",
         strikedoffprice: "Rs.999",
         price: 189,
-        offer: "81% off",
+        offer: "81%",
         rating: "3halfstar.png",
         freq: "(123)",
     }, {
@@ -134,7 +134,7 @@ let mens_data = [
         name: "UrbanMark Red Slippers",
         strikedoffprice: "Rs.455",
         price: 234,
-        offer: "25% off",
+        offer: "25%",
         rating: "3halfstar.png",
         freq: "(23)",
     }, {
@@ -142,7 +142,7 @@ let mens_data = [
         name: "Aadi Outdoor Black Casual Shoes",
         strikedoffprice: "Rs.999",
         price: 449,
-        offer: "56% off",
+        offer: "56%",
         rating: "3halfstar.png",
         freq: "(35)",
     }, {
@@ -150,7 +150,7 @@ let mens_data = [
         name: "ASIAN Sneakers Black Casual Shoes",
         strikedoffprice: "Rs.699",
         price: 469,
-        offer: "33% off",
+        offer: "33%",
         rating: "3halfstar.png",
         freq: "(56)",
     }, {
@@ -158,7 +158,7 @@ let mens_data = [
         name: "ASIAN Sneakers Black Casual Shoes",
         strikedoffprice: "Rs.1234",
         price: 356,
-        offer: "44% off",
+        offer: "44%",
         rating: "3halfstar.png",
         freq: "(45)",
     }, {
@@ -166,7 +166,7 @@ let mens_data = [
         name: "Altek Tan Flip Flops",
         strikedoffprice: "Rs.499",
         price: 234,
-        offer: "52% off",
+        offer: "52%",
         rating: "3halfstar.png",
         freq: "(234)",
     }, {
@@ -174,7 +174,7 @@ let mens_data = [
         name: "viv Blue Casual Shoes",
         strikedoffprice: "Rs.1999",
         price: 489,
-        offer: "78% off",
+        offer: "78%",
         rating: "3halfstar.png",
         freq: "(1045)",
     }, {
@@ -182,7 +182,7 @@ let mens_data = [
         name: "Aadi Sneakers Black Casual Shoes",
         strikedoffprice: "Rs.999",
         price: 799,
-        offer: "20% off",
+        offer: "20%",
         rating: "3halfstar.png",
         freq: "(399)",
     }, {
@@ -190,7 +190,7 @@ let mens_data = [
         name: "Kara Black Nylon Office Bag",
         strikedoffprice: "Rs.3999",
         price: 1199,
-        offer: "80% off",
+        offer: "80%",
         rating: "3halfstar.png",
         freq: "(479)",
     }, {
@@ -198,7 +198,7 @@ let mens_data = [
         name: "Abgrow Black PU Leather Office Laptop",
         strikedoffprice: "Rs.6777",
         price: 3555,
-        offer: "30% off",
+        offer: "30%",
         rating: "3halfstar.png",
         freq: "(234)",
     }, {
@@ -206,7 +206,7 @@ let mens_data = [
         name: "Creator Sleek PU Leather Office, College",
         strikedoffprice: "Rs.2,299",
         price: 456,
-        offer: "81% off",
+        offer: "81%",
         rating: "3halfstar.png",
         freq: "(23)",
     }, {
@@ -214,7 +214,7 @@ let mens_data = [
         name: "Leather World Laptop office bag Brow",
         strikedoffprice: "Rs.3,999",
         price: 699,
-        offer: "75% off",
+        offer: "75%",
         rating: "3halfstar.png",
         freq: "(46)",
     }, {
@@ -222,7 +222,7 @@ let mens_data = [
         name: "Da Tasche Black 38 Ltrs Laptop Bags",
         strikedoffprice: "Rs.3,499",
         price: 749,
-        offer: " 67% off",
+        offer: "67%",
         rating: "3halfstar.png",
         freq: "(89)",
     }, {
@@ -230,7 +230,7 @@ let mens_data = [
         name: "Fly Fashion Sky Blue 22 Ltrs Laptop Bags",
         strikedoffprice: "Rs.4667",
         price: 1999,
-        offer: "56% off",
+        offer: "56%",
         rating: "3halfstar.png",
         freq: "(345)",
     },
@@ -240,354 +240,122 @@ let mens_data = [
         name: "MEN'S REEBOK SWIM ARUBA FLIP SLIPPERS ",
         strikedoffprice: "Rs. 2599",
         price: 1170,
-        offer: " 67% off",
+        offer: "67%",
         rating: "3halfstar.png",
         freq: "(89)",
 
     },
     {
         image_url:
-            "https://content.shop4reebok.com/static/Product-EX3921/reebok_EX3921_1.jpg.plp",
+            "https://media.finishline.com/s/finishline/6298394_002?$Main$&layer0=[h=245&w=245&bg=rgb(237,237,237)]&h=245&w=245&fmt=webp",
         name: "MEN'S REEBOK SWIM ARUBA FLIP SLIPPERS ",
         strikedoffprice: "Rs. 999",
         price: 234,
-        offer: " 45% off",
+        offer: "45%",
         rating: "3halfstar.png",
         freq: "(890)",
     },
     {
         image_url:
-            "https://content.shop4reebok.com/static/Product-EX4160/reebok_EX4160_1.jpg.plp",
+            "https://media.finishline.com/s/finishline/FD0664_400?$Main$&$global_access_grid$&layer0=[h=245&w=245&bg=rgb(237,237,237)]&h=245&w=245&fmt=webp",
         name: " MEN'S REEBOK RUNNING AUSTIN SHOES",
         strikedoffprice: "Rs. 2599",
         price: 970,
-        offer: " 70% off",
+        offer: "70%",
         rating: "3halfstar.png",
         freq: "(80)",
     }, {
         image_url:
-            "https://content.shop4reebok.com/static/Product-FV8798/MEN_SWIM_SLIPPERS_FV8798_1.jpg.plp",
+            "https://media.finishline.com/s/finishline/FJ0680_222?$Main$&layer0=[h=245&w=245&bg=rgb(237,237,237)]&h=245&w=245&fmt=webp",
         name: "MEN'S REEBOK SWIM AVENGER FLIP LP SLIPPERS",
         strikedoffprice: "Rs.799",
         price: 170,
-        offer: " 46% off",
+        offer: "46%",
         rating: "3halfstar.png",
         freq: "(84)",
     }, {
         image_url:
-            "https://content.shop4reebok.com/static/Product-EW5173/reebok_EW5173_1.jpg.plp",
+            "https://media.finishline.com/s/finishline/DM0011_002?$Main$&$global_access_grid$&layer0=[h=245&w=245&bg=rgb(237,237,237)]&h=245&w=245&fmt=webp",
         name: "MEN'S REEBOK RUNNING TEMPO SHOES ",
         strikedoffprice: "Rs.3599",
         price: 1670,
-        offer: " 60% off",
+        offer: "60%",
         rating: "3halfstar.png",
         freq: "(608)",
     }, {
         image_url:
-            "https://content.shop4reebok.com/static/Product-FV7329/reebok_FV7329_1.jpg.plp ",
+            "https://media.finishline.com/s/finishline/GY9135_100?$Main$&layer0=[h=245&w=245&bg=rgb(237,237,237)]&h=245&w=245&fmt=webp",
         name: " MEN'S REEBOK RUNNING ASTRO BOOSTER SHOES ",
         strikedoffprice: "Rs.3199",
         price: 1170,
-        offer: " 67% off",
+        offer: " 67%" ,
         rating: "3halfstar.png",
         freq: "(856)",
-    }, {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-GD8567/MEN_TRAINING_PANTS_GD8567_1.jpg.plp ",
-        name: " MEN'S TRAINING WORKOUT READY ELITAGE PANTS ",
-        strikedoffprice: "Rs. 3599",
-        price: 1970,
-        offer: " 67% off",
-        rating: "3halfstar.png",
-        freq: "(909)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-GQ8758/reebok_GQ8758_1.jpg.plp ",
-        name: "MEN'S REEBOK TRAINING  POLO T-SHIRTS TEE  ",
-        strikedoffprice: "Rs.1099",
-        price: 770,
-        offer: " 30% off",
-        rating: "3halfstar.png",
-        freq: "(890)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-GP7180/reebok_GP7180_1.jpg.plp",
-        name: "MEN'S REEBOK TRAINING WORKOUT  TEE  ",
-        strikedoffprice: "Rs.1599",
-        price: 770,
-        offer: " 50% off",
-        rating: "3halfstar.png",
-        freq: "(90)",
-
-    }, {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-EX3924/reebok_EX3924_1.jpg.plp ",
-        name: "MEN'S REEBOK SUPER SOFT FLIP SLIPPERS",
-        strikedoffprice: "Rs.999",
-        price: 670,
-        offer: " 20% off",
-        rating: "3halfstar.png",
-        freq: "(80)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-FW0343/reebok_FW0343_1.jpg.plp ",
-        name: "MEN'S REEBOK RUNNING RUN SHOES  ",
-        strikedoffprice: "Rs.4599",
-        price: 1670,
-        offer: " 60% off",
-        rating: "3halfstar.png",
-        freq: "(90)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-EX4285/reebok_EX4285_1.jpg.plp ",
-        name: "MEN'S REEBOK RUNNING GENESIS RUNNER SHOES",
-        strikedoffprice: "Rs.3599",
-        price: 2370,
-        offer: " 30% off",
-        rating: "3halfstar.png",
-        freq: "(907)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-FV9519/MEN_SWIM_SLIPPERS_FV9519_1.jpg.plp ",
-        name: "MEN'S REEBOK SWIM RUSSLE FLIP SLIPPERS  ",
-
-        strikedoffprice: "Rs.1099",
-        price: 770,
-        offer: " 20% off",
-        rating: "3halfstar.png",
-        freq: "(670)",
-
-    },
-    {
-        image_url: "https://content.shop4reebok.com/static/Product-FW0318/reebok_FW0318_1.jpg.plp ",
-        name: " MEN'S REEBOK RUNNING TREND RUNNER SHOES",
-        strikedoffprice: "Rs.3499",
-        price: 1470,
-        offer: " 50% off",
-        rating: "3halfstar.png",
-        freq: "(80)",
-    },
-    {
-        image_url:"https://content.shop4reebok.com/static/Product-GK9175/reebok_GK9175_1.jpg.plp",
-        name: "MEN'S REEBOK TRAINING FOUNDATION  PANTS  ",
-        strikedoffprice: "Rs.1699",
-        price: 770,
-        offer: " 60% off",
-        rating: "3halfstar.png",
-        freq: "(560)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-GK9176/reebok_GK9176_1.jpg.plp ",
-        name: "MEN'S REEBOK TRAINING FOUNDATION PANTS  ",
-
-        strikedoffprice: "Rs.1699",
-        price: 1070,
-        offer: " 20% off",
-        rating: "3halfstar.png",
-        freq: "(120)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-FW0318/reebok_FW0318_1.jpg.plp ",
-        name: " MEN'S REEBOK RUNNING TREND SHOES",
-
-        strikedoffprice: "Rs.3499",
-        price: 1570,
-        offer: " 60% off",
-        rating: "3halfstar.png",
-        freq: "(80)",
-    },
-    {
-        image_url:
-            " https://content.shop4reebok.com/static/Product-G57776/reebok_G57776_1.jpg.plp ",
-        name: "  MEN'S REEBOK RUNNING ZTAUR RUN SHOES ",
-
-        strikedoffprice: "Rs.4999",
-        price: 3490,
-        offer: " 30% off",
-        rating: "3halfstar.png",
-        freq: "(90)",
-    },
-    {
-        image_url:
-            " https://content.shop4reebok.com/static/Product-FV9555/MEN_SWIM_SLIPPERS_FV9555_1.jpg.plp  ",
-        name: "MEN'S REEBOK SWIM ULTRA FLIP SLIPPERS   ",
-
-        strikedoffprice: "Rs.1499",
-        price: 770,
-        offer: " 50% off",
-        rating: "3halfstar.png",
-        freq: "(80)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-EX3994/reebok_EX3994_1.jpg.plp   ",
-        name: "  MEN'S REEBOK SWIM FLEX CONNECT SANDALS ",
-
-        strikedoffprice: "Rs.1099",
-        price: 770,
-        offer: " 30% off",
-        rating: "3halfstar.png",
-        freq: "(890)",
-    },
-    {
-        image_url:
-            " https://content.shop4reebok.com/static/Product-EX4287/reebok_EX4287_1.jpg.plp  ",
-        name: " MEN'S REEBOK RUNNING GENESIS RUNNER SHOE  ",
-
-        strikedoffprice: "Rs.3599",
-        price: 1600,
-        offer: " 67% off",
-        rating: "3halfstar.png",
-        freq: "(1220)",
-    },
-    {
-        image_url:
-            " https://content.shop4reebok.com/static/Product-GK9180/reebok_GK9180_1.jpg.plp  ",
-        name: " MEN'S REEBOK TRAINING RUNNER SHORTS  ",
-        strikedoffprice: "Rs.1299",
-        price: 770,
-        offer: " 40% off",
-        rating: "3halfstar.png",
-        freq: "(90)",
-    },
-    {
-        image_url:
-            " https://content.shop4reebok.com/static/Product-HB5732/reebok_HB5732_1.jpg.plp  ",
-        name: " MEN REEBOK CLASSICS TRACKSUIT HOODIE  ",
-
-        strikedoffprice: "Rs.4999",
-        price: 3490,
-        offer: " 10% off",
-        rating: "3halfstar.png",
-        freq: "(900)",
-    },
-    {
-        image_url:
-            " https://content.shop4reebok.com/static/Product-HB5733/reebok_HB5733_1.jpg.plp  ",
-        name: "MEN'S REEBOK CLASSIC TRACKSUIT GOLF HOODIE   ",
-
-        strikedoffprice: "Rs.1499",
-        price: 770,
-        offer: " 50% off",
-        rating: "3halfstar.png",
-        freq: "(890)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-FQ5364/reebok_FQ5364_1.jpg.plp   ",
-        name: " UNISEX REEBOK TRAINING ACTIVE  BAG ",
-
-        strikedoffprice: "Rs.2799",
-        price: 1370,
-        offer: " 50% off",
-        rating: "3halfstar.png",
-        freq: "(80)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-FW0318/reebok_FW0318_1.jpg.plp ",
-        name: " MEN'S REEBOK RUNNING TREND RUNNER SHOES",
-
-        strikedoffprice: "Rs.1799",
-        price: 770,
-        offer: " 60% off",
-        rating: "3halfstar.png",
-        freq: "(760)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-G57705/reebok_G57705_1.jpg.plp",
-        name: "UNISEX REEBOK CLASSICS  BASKETBALL SHOES",
-
-        strikedoffprice: "Rs.5599",
-        price: 3470,
-        offer: " 40% off",
-        rating: "3halfstar.png",
-        freq: "(80)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-FW0344/reebok_FW0344_1.jpg.plp",
-        name: "MEN'S REEBOK RUNNING RUN FUSION  SHOES",
-        strikedoffprice: "Rs.1099",
-        price: 770,
-        offer: " 30% off",
-        rating: "3halfstar.png",
-        freq: "(890)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-EX4272/reebok_EX4272_1.jpg.plp",
-        name: "MEN'S REEBOK RUNNING QUICK DRIFTER SHOES",
-
-        strikedoffprice: "Rs.1599",
-        price: 770,
-        offer: " 60% off",
-        rating: "3halfstar.png",
-        freq: "(890)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-H02293/reebok_H02293_1.jpg.plp",
-        name: "MEN'S REEBOK DYNAMIC ZIGZAG SHOES",
-
-        strikedoffprice: "Rs.9999",
-        price: 7767,
-        offer: " 20% off",
-        rating: "3halfstar.png",
-        freq: "(890)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-FV9551/MEN_SWIM_SLIPPERS_FV9551_1.jpg.plp",
-        name: "MEN'S REEBOK SWIM SUPERSOFT FLIP SLIPPERS",
-
-        strikedoffprice: "Rs.1099",
-        price: 770,
-        offer: " 30% off",
-        rating: "3halfstar.png",
-        freq: "(890)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-HC3528/reebok_HC3528_1.jpg.plp",
-        name: "MEN'S REEBOK TRAINING ACTIVE BASIC POLO TEE",
-
-        strikedoffprice: "Rs.1399",
-        price: 770,
-        offer: " 50% off",
-        rating: "3halfstar.png",
-        freq: "(90)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-HF3794/reebok_HF3794_01.JPG.plp ",
-        name: "MEN'S REEBOK TRAINING ACTIVE MOVE TEE ",
-        strikedoffprice: "Rs.1999",
-        price: 1760,
-        offer: " 10% off",
-        rating: "3halfstar.png",
-        freq: "(890)",
-    },
-    {
-        image_url:
-            "https://content.shop4reebok.com/static/Product-HG5456/reebok_HG5456_1.jpg.plp",
-        name: "MEN'S REEBOK FITNESS TRAINING  SWEATSHIRT",
-        strikedoffprice: 1799,
-        price: 1070,
-        offer: " 40% off",
-        rating: "3halfstar.png",
-        freq: "(120)",
-    },
+    }, 
 ];
 
+let filterdata=document.querySelector("#sort")
+filterdata.addEventListener("change",()=>{
+    filterby(mens_data)
+})
+function filterby(data){
+    if(sort.value==""){
+       appenddata(data)
+    }else{
+        data=data.filter((elem)=>{
+            if(sort.value=="price high"){
+                return elem.price>1500;
+               
+            }else if(sort.value=="price low"){
+                console.log(sort.value);
+                return elem.price<1500;
+            }else if(sort.value=="50% off"){
+               return Number( elem.offer)>= Number("50%")
+               console.log(sort.value);
+            }
+            else if(sort.value=="20% off"){
+                console.log(sort.value);
+                return  Number( elem.offer)<=Number("20%");
+             }
 
-let container=document.querySelector("container");
+        })
+      
+        console.log(data);
+        appenddata(data)
+       
+       
+    }
+}
+filterby(mens_data)
+
+
+
+function appenddata(data){
+   
+    let container=document.querySelector("#container");
+     container.innerHTML="";
+   data.forEach(product => {
+    let div=document.createElement("div");
+    let img=document.createElement("img");
+    img.src=(product.image_url)
+    let div1=document.createElement("div");
+    div1.setAttribute("id","div1");
+    let price=document.createElement("h5");
+    price.innerText=`₹${product.price}`;
+    let offer=document.createElement("h5");
+    offer.innerText=`off(${product.offer})`;
+    let strikedoffprice=document.createElement("h5");
+    strikedoffprice.innerText=product.strikedoffprice;
+    let title=document.createElement("p");
+    title.innerText=product.name;
+    let div2=document.createElement("div");
+    let btn=document.createElement("button")
+    div2.setAttribute("id","button1");
+    btn.innerText="Add to Bag";
+    div2.append(btn);
+    div1.append(strikedoffprice,offer,price);
+    div.append(img,title,div1,div2);
+    container.append(div);
+   });
+}
 
