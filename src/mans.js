@@ -301,6 +301,7 @@ filterdata.addEventListener("change",()=>{
 function filterby(data){
     if(sort.value==""){
        appenddata(data)
+       total(data)
     }else{
         data=data.filter((elem)=>{
             if(sort.value=="price high"){
@@ -322,7 +323,7 @@ function filterby(data){
       
         console.log(data);
         appenddata(data)
-       
+       total(data)
        
     }
 }
@@ -331,7 +332,7 @@ filterby(mens_data)
 
 
 function appenddata(data){
-   
+    let bag_data3=JSON.parse(localStorage.getItem("bag_mens"))||[];
     let container=document.querySelector("#container");
      container.innerHTML="";
    data.forEach(product => {
@@ -352,6 +353,10 @@ function appenddata(data){
     let btn=document.createElement("button")
     div2.setAttribute("id","button1");
     btn.innerText="Add to Bag";
+    btn.addEventListener("click",()=>{
+        bag_data3.push(product);
+        localStorage.setItem("bag_mens",JSON.stringify(bag_data3));
+    })
     div2.append(btn);
     div1.append(strikedoffprice,offer,price);
     div.append(img,title,div1,div2);
@@ -359,3 +364,7 @@ function appenddata(data){
    });
 }
 
+function total(data){
+    let totaldata=document.querySelector("#total");
+    totaldata.innerText= `(${data.length})`;
+  }

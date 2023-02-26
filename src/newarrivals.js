@@ -25,18 +25,31 @@ sort.addEventListener("change",()=>{
 function filterby(data){
     if(sort.value==""){
        appenddata(data)
+       total(data)
     }else{
         data=data.filter((elem)=>{
-            return elem.createdAt==sort.value;
-
+            if(sort.value=="Handcrafted"){
+                return elem.rating==sort.value;
+               
+            }else if(sort.value=="Modern"){
+                
+                return elem.rating==sort.value;
+            }else if(sort.value=="Practical"){
+               return ( elem.rating)>=(sort.value)
+              
+            }
+            else if(sort.value=="Rustic"){
+                
+                return  ( elem.rating)<=(sort.value);
+             }
         })
-        console.log(data);
+        
         appenddata(data)
-       
+        total(data)
        
     }
 }
-
+let bag_data2=JSON.parse(localStorage.getItem("bag_new"))||[];
 let container=document.querySelector("#container");
 function appenddata(data){
     container.innerHTML="";
@@ -56,9 +69,19 @@ function appenddata(data){
     let btn=document.createElement("button")
     div2.setAttribute("id","button1");
     btn.innerText="Add to Bag";
+   
+    btn.addEventListener("click",()=>{
+        bag_data2.push(product);
+        localStorage.setItem("bag_new",JSON.stringify(bag_data2));
+    })
     div2.append(btn);
     div1.append(rating,price);
     div.append(img,title,div1,div2);
     container.append(div);
    });
 }
+
+function total(data){
+    let totaldata=document.querySelector("#total");
+    totaldata.innerText=`(${data.length})`;
+  }

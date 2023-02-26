@@ -20,7 +20,7 @@ function slidshow(elem){
 
 window.addEventListener("load",()=>{
 let i=0;
-console.log(i);
+
   setInterval(()=>{
     slidshow(image[i]);
     if(i==image.length-1){
@@ -29,5 +29,5 @@ console.log(i);
     }else{
       i++;
     }
-  },5000);
+  },2000);
 });

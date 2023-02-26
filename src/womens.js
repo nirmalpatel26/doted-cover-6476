@@ -539,10 +539,11 @@ filterdata.addEventListener("change",()=>{
 function filterby(data){
     if(sort.value==""){
        appenddata(data)
+       total(data)
     }else{
         data=data.filter((elem)=>{
             if(sort.value=="price high"){
-                return elem.price>1500;
+                return elem.price>700;
                
             }else if(sort.value=="price low"){
                 console.log(sort.value);
@@ -560,7 +561,7 @@ function filterby(data){
       
         console.log(data);
         appenddata(data)
-       
+        total(data)
        
     }
 }
@@ -569,7 +570,7 @@ filterby(womensData)
 
 
 function appenddata(data){
-   
+  let bag_data1=JSON.parse(localStorage.getItem("bag_women"))||[];
     let container=document.querySelector("#container");
      container.innerHTML="";
    data.forEach(product => {
@@ -581,7 +582,7 @@ function appenddata(data){
     let price=document.createElement("h5");
     price.innerText=`₹${product.price}`;
     let offer=document.createElement("h5");
-    offer.innerText=`off(${product.offer})`;
+    offer.innerText=`(${product.offprice})`;
     let strikedoffprice=document.createElement("h5");
     strikedoffprice.innerText=product.strikedoffprice;
     let title=document.createElement("p");
@@ -590,11 +591,20 @@ function appenddata(data){
     let btn=document.createElement("button")
     div2.setAttribute("id","button1");
     btn.innerText="Add to Bag";
+    btn.addEventListener("click",()=>{
+      bag_data1.push(product);
+      localStorage.setItem("bag_women",JSON.stringify(bag_data1));
+  })
     div2.append(btn);
     div1.append(strikedoffprice,offer,price);
     div.append(img,title,div1,div2);
     container.append(div);
    });
+}
+
+function total(data){
+  let totaldata=document.querySelector("#total");
+  totaldata.innerText=`(${data.length})`;
 }
 
 

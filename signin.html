@@ -51,25 +51,54 @@
         }
 
         #input>form {
-            gap: 20px;
+            /* gap: 20px; */
             flex-direction: column;
             display: grid;
         }
 
         #input>form>input {
-            width: 80%;
+            width: 350px;
             height: 40px;
             display: grid;
             grid-template-columns: repeat(1.1fr);
             margin: auto;
+            margin-top: 20px;
             font-size: 20px;
             margin-bottom: 10px;
+        }
+        #create{
+            width: 350px;
+            height: 40px;
+            display: grid;
+            grid-template-columns: repeat(1.1fr);
+            margin: auto;
+           margin-top: 10px;
+            font-size: 20px;
+            margin-bottom: 30px;
+            align-items: center;
+            
+        }
+        .create1{
+            text-decoration: none;
+            color: black;
+            align-items: center;
+           
+        }
+        #create:hover{
+            background-color: black;
+            color: white;
+          
+        }
+        .create1:hover{
+            background-color: black;
+            color: white;
+           
         }
 
         #submit {
             margin: auto;
             margin-top: 20px;
-            width: 350px;
+            width: 80%;
             height: 40px;
             font-size: 20px;
             background-color: aqua;
@@ -78,9 +107,9 @@
         }
         @media only screen and (max-width:650px){
             #submit {
-            margin: auto;
+            margin: 50%;
             margin-top: 20px;
-            /* width: auto; */
+            width: auto;
             height: 40px;
             font-size: 20px;
             background-color: aqua;
@@ -88,7 +117,7 @@
 
         }
         #input>form>input {
-            /* width: auto; */
+            width: 50%;
             height: 40px;
             display: grid;
             grid-template-columns: repeat(1.1fr);
@@ -111,35 +140,36 @@
         <img src="./logo01.png" alt="">
     </div>
     <div id="input">
+       
+       
+        <form action="">
+          
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="password" placeholder="Password" id="password" required>
+            <input type="submit" value="SIGN IN" id="submit" required>
+
+        </form>
         <img src="https://account.finishline.com/static/media/STATUS_logo_black.3c28c69a.svg" alt="">
         <div>
-            <h5>
-                ONE ACCOUNT. <br>
-                MORE ACCESS. <br>
-            </h5>
+            <h2>
+               JOINT NOW
+            </h2>
             <img src="https://account.finishline.com/static/media/JD_FNL_Brand.2545ac22.svg" alt="">
         </div>
 
         <div>
-            <h3>CREATE A STATUS ACCOUNT</h3>
-            <h5>Earn 10 points for every $1 you spend.</h5>
-            <p>Get Points. Gain Access. Boost your STATUS.</p>
+            
+            <h5>Earn 10 points for every $1 you spend. <br>
+                Get Points. Gain Access. Boost your STATUS.</h5>
+            <p>Create an account to earn STATUS <br>
+                points and check out faster.</p>
+
+                <a href="./index.html" style="color: black;">LEARN MORE</a>
         </div>
-       
-        <form action="">
-            <input type="text" placeholder="First Name" id="name" required>
-            <input type="text" placeholder="Last Name" id="last_name" required>
-            <input type="text" placeholder="Birth Date" id="date" required>
-            <input type="email" placeholder="Email" id="email" required>
-            <input type="password" placeholder="Password" id="password" required>
-            <input type="submit" value="CREATE  ACCOUNT" id="submit" >
-
-        </form>
-        <button  style="background-color: black; color: white;"> <a href="./signin.html" style="background-color: black; color: white;"> SIGN IN</a></button>
-
+        <button id="create"><a href="./signup.html" class="create1">CREATE ACCOUNT</a></button>
 
     </div>
-    <script src="./src/signup.js"> </script>
+    <script src="./src/signin.js"> </script>
 </body>
 
 </html>

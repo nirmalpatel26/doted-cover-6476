@@ -24,6 +24,7 @@
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
     width: 90%;
+    
     /* border: 1px solid red; */
     margin: auto;
 }
@@ -37,6 +38,7 @@
     width: 100%;
 }
 #box>div>a{
+    
     text-decoration: none;
     color: black;
     font-size: 18px;
